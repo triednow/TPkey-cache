@@ -2,7 +2,7 @@
 
 date_default_timezone_set('Asia/Kolkata');
 
-$apikey = ""; // get your own apiKey from " https://babel-in.xyz "
+$apikey = "babel-ed2b1436bfa9b8eb7395018b33e32b22"; // get your own apiKey from " https://babel-in.xyz "
 $cacheFolder = "_cache_"; // set cache folder
 $cacheTime = 691200; // 8 days in seconds
 
