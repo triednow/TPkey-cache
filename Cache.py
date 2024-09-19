@@ -4,7 +4,7 @@ import time
 import requests
 from datetime import datetime
 
-apikey = ""  # get your own API key from "https://babel-in.xyz"
+apikey = "babel-ed2b1436bfa9b8eb7395018b33e32b22"  # get your own API key from "https://babel-in.xyz"
 cache_folder = "_cache_" # cacheFile
 cache_time = 691200  # 8 days in seconds
 
