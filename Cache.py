@@ -33,7 +33,7 @@ def fetch_and_cache_data():
         if data:
             for channel in data.get("data", []):
                 channel_id = channel.get('id')
-                channel_key = channel.get('channel_key')
+                channel_key = requests.get(f"https://babel-in.xyz/{apikey}/tata/key/{channel_id}").json().get('key')
                 
                 if isinstance(channel_key, dict):
                     keys = channel_key.get('keys', [])
